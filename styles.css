@@ -11,7 +11,6 @@ body {
 .col {
   border: 1px solid black;
   flex: 1;
-  background: darkred;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -29,7 +28,7 @@ body {
   cursor: pointer;
 }
 .col button {
-  border: none;
+  outline: none;
   background: transparent;
   font-size: 1.5rem;
   color: #fff;
